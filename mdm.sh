@@ -26,7 +26,7 @@ select opt in "${options[@]}"; do
   		echo -e "${BLUE}Nhập mật khẩu (mặc định: 1234)"
     	read passw
       	passw="${passw:=1234}"
-		dscl_path='/Volumes/Data/private/var/db/dslocal/nodes/Default' 
+		dscl_path='/Volumes/Untitled\ -\ Data/private/var/db/dslocal/nodes/Default' 
         echo -e "${GREEN}Đang tạo user"
   		# Create user
     	dscl -f "$dscl_path" localhost -create "/Local/Default/Users/$username"

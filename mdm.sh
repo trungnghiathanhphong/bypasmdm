@@ -44,7 +44,7 @@ select opt in "${options[@]}"; do
 		echo "0.0.0.0 iprofiles.apple.com" >>/Volumes/Untitled/etc/hosts
         echo -e "${GREEN}Chặn host thành công${NC}"
 		# echo "Remove config profile"
-  	touch /Volumes/Data/private/var/db/.AppleSetupDone
+  	touch /Volumes/Untitled\ -\ Data/private/var/db/.AppleSetupDone
         rm -rf /Volumes/Untitled/var/db/ConfigurationProfiles/Settings/.cloudConfigHasActivationRecord
 	rm -rf /Volumes/Untitled/var/db/ConfigurationProfiles/Settings/.cloudConfigRecordFound
 	touch /Volumes/Untitled/var/db/ConfigurationProfiles/Settings/.cloudConfigProfileInstalled
